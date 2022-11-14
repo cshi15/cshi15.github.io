@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>NLB Detection Project</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Crystal Shi</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">About Me</a></li>
+							<li class="active"><a href="projects.html">Projects</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<span class="date">April 25, 2017</span>
+									<h1>Rover and Drone for Crop Disease Detection</h1>
+									<p>Northern Leaf Blight (NLB) is a disease commonly affecting maize plants, reducing yields by up to 60%.
+                                        In 2013, NLB was the most damaging maize disease in the US, and continues to affect crops to this day.
+                                        I'm working as part of my university's Engineers Without Borders Digital Agriculture team to create a dual drone and rover 
+                                        system that can detect NLB in maize fields, helping farmers catch early onset of the disease so they
+                                        can prevent its spread.</p>
+								</header>
+								<div class="image main"><img src="images/digag_intro_photo.png" alt="" /></div>
+                                <p>Our project is a proof-of-concept dual drone and rover system designed to detect early onset of NLB in maize plants.
+                                   It is an entirely open-source project intended to help farmers in rural communities, especially those who lack the resources or money for advanced 
+                                   commercialized technology. As such, it is designed to be easily built and its materials relatively inexpensive and 
+                                   easy to acquire.
+                                </p>
+								<p>The project is split into four main components: the rover, the drone, the app interface, and the machine learning algorithm.
+                                    First, the drone flies over the field and uses multispectral imaging to identify potential problem areas, as diseased
+                                    plants absorb some light wavelengths differently than healthy plants. After potential problem areas have been identified,
+                                    the farmer can use the app interface to plot a path for the rover to take in the field so that it can drive through 
+                                    the problem areas and scan the leaves for signs of NLB.
+                                </p>
+
+								<div class="box alt">
+									<div class="row gtr-50 gtr-uniform aln-center">
+										<div class="col-5"><span class="image fit"><img src="images/digag_drone_sq.png" alt="" /></span></div>
+										<div class="col-5"><span class="image fit"><img src="images/digag_leaf.png" alt="" /></span></div>
+									</div>
+								</div>
+
+								<p>NLB is characterized by large yellow-brown lesions on the leaves of the maize plant, which usually start occurring
+                                    from the bottom up. The rover will use a machine learning algorithm to scan the leaves and identify leaves that show
+                                    signs of NLB, flagging them so that the farmer can go in and manually review. Thus, the combination of rover and 
+                                    drone system allows the drone to narrow down potential areas for the rover to do a more
+                                    detailed inspection.
+                                </p>
+                                <p>As a member of the hardware team, I have been primarily working on the rover, which uses the open source JPL rover 
+                                    build from NASA. We have currently completed most of the mechanical assembly, and are now working on electrical 
+                                    and software system integration in order to get all the sensor inputs we need. This includes wiring and soldering 
+                                    of components, as well as doing significant research on what sensors to buy and how we can connect them with
+                                    our Raspberry Pi. Because this system is intended to be easily accessible, we need to stay as low-cost as possible 
+                                    while still ensuring our intended functionality.
+                                </p>
+                                <p>We intend to complete our main functionality and begin testing by the end of this year-- stay tuned for updates on this page!
+                                </p>
+								<div class="box alt">
+									<div class="row gtr-50 gtr-uniform aln-center">
+										<div class="col-5"><span class="image fit"><img src="images/digag_rover.png" alt="" /></span></div>
+										<div class="col-5"><span class="image fit"><img src="images/digag_rover_2.png" alt="" /></span></div>
+									</div>
+								</div>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section>
+						<section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<p>1234 Somewhere Road #87257<br />
+								Nashville, TN 00000-0000</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p><a href="#">(000) 000-0000</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">info@untitled.tld</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
